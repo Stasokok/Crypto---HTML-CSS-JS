@@ -38,6 +38,6 @@ form.addEventListener('submit', (event) => {
         setTimeout(() => {
             overlay.classList.remove('overlay__open');
             modal.classList.remove('modal__open');
-        }, 3000)
-      })
+        }, 3000);
+      });
 });
